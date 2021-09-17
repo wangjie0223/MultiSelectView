@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		792AA0200BDEABDF8A03726B /* Pods_MultiSelectView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F472A41CE5951B9785E5AEF8 /* Pods_MultiSelectView.framework */; };
 		8F1373C726F4426700FF9C3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1373C626F4426700FF9C3B /* AppDelegate.swift */; };
 		8F1373C926F4426700FF9C3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1373C826F4426700FF9C3B /* SceneDelegate.swift */; };
 		8F1373CB26F4426700FF9C3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1373CA26F4426700FF9C3B /* ViewController.swift */; };
 		8F1373CE26F4426700FF9C3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1373CC26F4426700FF9C3B /* Main.storyboard */; };
 		8F1373D026F4426900FF9C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1373CF26F4426900FF9C3B /* Assets.xcassets */; };
 		8F1373D326F4426900FF9C3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1373D126F4426900FF9C3B /* LaunchScreen.storyboard */; };
+		8F1373DB26F4443300FF9C3B /* MultiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1373DA26F4443300FF9C3B /* MultiCell.swift */; };
+		8F1373DD26F444CE00FF9C3B /* MultiSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1373DC26F444CE00FF9C3B /* MultiSelectView.swift */; };
+		8F1373E026F4481400FF9C3B /* MultiReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1373DF26F4481400FF9C3B /* MultiReusableView.swift */; };
+		8F1373E926F4819B00FF9C3B /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1373E826F4819B00FF9C3B /* CustomAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,14 @@
 		8F1373CF26F4426900FF9C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F1373D226F4426900FF9C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F1373D426F4426900FF9C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1373DA26F4443300FF9C3B /* MultiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCell.swift; sourceTree = "<group>"; };
+		8F1373DC26F444CE00FF9C3B /* MultiSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectView.swift; sourceTree = "<group>"; };
+		8F1373DF26F4481400FF9C3B /* MultiReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiReusableView.swift; sourceTree = "<group>"; };
+		8F1373E126F47F3E00FF9C3B /* MultiSelectView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiSelectView-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F1373E826F4819B00FF9C3B /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		C3368EE366986C6D7092834A /* Pods-MultiSelectView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSelectView.release.xcconfig"; path = "Target Support Files/Pods-MultiSelectView/Pods-MultiSelectView.release.xcconfig"; sourceTree = "<group>"; };
+		CEF4F6E93125CB75A1F96CAC /* Pods-MultiSelectView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSelectView.debug.xcconfig"; path = "Target Support Files/Pods-MultiSelectView/Pods-MultiSelectView.debug.xcconfig"; sourceTree = "<group>"; };
+		F472A41CE5951B9785E5AEF8 /* Pods_MultiSelectView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiSelectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +44,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792AA0200BDEABDF8A03726B /* Pods_MultiSelectView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56EF8833D469AA59E820889E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4F6E93125CB75A1F96CAC /* Pods-MultiSelectView.debug.xcconfig */,
+				C3368EE366986C6D7092834A /* Pods-MultiSelectView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8F1373BA26F4426600FF9C3B = {
 			isa = PBXGroup;
 			children = (
 				8F1373C526F4426700FF9C3B /* MultiSelectView */,
 				8F1373C426F4426700FF9C3B /* Products */,
+				56EF8833D469AA59E820889E /* Pods */,
+				F6D641B4FBCC0BA1054F0A72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +81,7 @@
 		8F1373C526F4426700FF9C3B /* MultiSelectView */ = {
 			isa = PBXGroup;
 			children = (
+				8F1373DE26F444D400FF9C3B /* views */,
 				8F1373C626F4426700FF9C3B /* AppDelegate.swift */,
 				8F1373C826F4426700FF9C3B /* SceneDelegate.swift */,
 				8F1373CA26F4426700FF9C3B /* ViewController.swift */,
@@ -67,6 +93,26 @@
 			path = MultiSelectView;
 			sourceTree = "<group>";
 		};
+		8F1373DE26F444D400FF9C3B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8F1373DC26F444CE00FF9C3B /* MultiSelectView.swift */,
+				8F1373DA26F4443300FF9C3B /* MultiCell.swift */,
+				8F1373DF26F4481400FF9C3B /* MultiReusableView.swift */,
+				8F1373E126F47F3E00FF9C3B /* MultiSelectView-Bridging-Header.h */,
+				8F1373E826F4819B00FF9C3B /* CustomAlertView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F6D641B4FBCC0BA1054F0A72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F472A41CE5951B9785E5AEF8 /* Pods_MultiSelectView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F1373D726F4426900FF9C3B /* Build configuration list for PBXNativeTarget "MultiSelectView" */;
 			buildPhases = (
+				F18CD5CC9DF9DE7EA8AEFCFA /* [CP] Check Pods Manifest.lock */,
 				8F1373BF26F4426700FF9C3B /* Sources */,
 				8F1373C026F4426700FF9C3B /* Frameworks */,
 				8F1373C126F4426700FF9C3B /* Resources */,
+				DE20F5226445D1D813ECC55A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -98,6 +146,7 @@
 				TargetAttributes = {
 					8F1373C226F4426700FF9C3B = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -132,14 +181,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DE20F5226445D1D813ECC55A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiSelectView/Pods-MultiSelectView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiSelectView/Pods-MultiSelectView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiSelectView/Pods-MultiSelectView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18CD5CC9DF9DE7EA8AEFCFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiSelectView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F1373BF26F4426700FF9C3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8F1373CB26F4426700FF9C3B /* ViewController.swift in Sources */,
+				8F1373E926F4819B00FF9C3B /* CustomAlertView.swift in Sources */,
+				8F1373DB26F4443300FF9C3B /* MultiCell.swift in Sources */,
+				8F1373DD26F444CE00FF9C3B /* MultiSelectView.swift in Sources */,
 				8F1373C726F4426700FF9C3B /* AppDelegate.swift in Sources */,
 				8F1373C926F4426700FF9C3B /* SceneDelegate.swift in Sources */,
+				8F1373E026F4481400FF9C3B /* MultiReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +378,13 @@
 		};
 		8F1373D826F4426900FF9C3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF4F6E93125CB75A1F96CAC /* Pods-MultiSelectView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YEAF8YMCJ6;
+				DEVELOPMENT_TEAM = F896KV7CDX;
 				INFOPLIST_FILE = MultiSelectView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,6 +392,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangjie.www.MultiSelectView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiSelectView/views/MultiSelectView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,11 +401,13 @@
 		};
 		8F1373D926F4426900FF9C3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3368EE366986C6D7092834A /* Pods-MultiSelectView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YEAF8YMCJ6;
+				DEVELOPMENT_TEAM = F896KV7CDX;
 				INFOPLIST_FILE = MultiSelectView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,6 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangjie.www.MultiSelectView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiSelectView/views/MultiSelectView-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

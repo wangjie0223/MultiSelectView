@@ -1,0 +1,28 @@
+PODS:
+  - LEEAlert (1.5.1)
+  - Reusable (4.1.2):
+    - Reusable/Storyboard (= 4.1.2)
+    - Reusable/View (= 4.1.2)
+  - Reusable/Storyboard (4.1.2)
+  - Reusable/View (4.1.2)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - LEEAlert
+  - Reusable
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - LEEAlert
+    - Reusable
+    - SnapKit
+
+SPEC CHECKSUMS:
+  LEEAlert: e8a0d8e7ab24a1430e1003ccfb76da442549ff40
+  Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 7a6159d7789d3b6b7399a12d233398890ad70dc8
+
+COCOAPODS: 1.11.2
